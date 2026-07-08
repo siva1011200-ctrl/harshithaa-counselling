@@ -1,0 +1,60 @@
+/* -----------------------------
+BASE RESET
+----------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* -----------------------------
+SMOOTH FONT RENDERING
+----------------------------- */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* -----------------------------
+SECTION ALIGNMENT FIX
+(prevents overlap issues)
+----------------------------- */
+
+section {
+  width: 100%;
+  display: block;
+}
+
+/* -----------------------------
+IMAGES RESPONSIVE SAFE
+----------------------------- */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* -----------------------------
+INPUT SAFE STYLING (forms later)
+----------------------------- */
+
+input, textarea {
+  font-family: inherit;
+}
+
+/* -----------------------------
+MOBILE SAFETY
+----------------------------- */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
