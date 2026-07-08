@@ -52,6 +52,9 @@ export default function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/appointment" element={<AppointmentBooking />} />
+
+      {/* GitHub Pages fallback */}
+      <Route path="*" element={<HomePage />} />
     </Routes>
   );
 }

@@ -16,19 +16,9 @@ function Navbar() {
         <a href="#services" onClick={() => setOpen(false)}>Services</a>
         <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
 
-        <button
-          className="book-btn"
-          onClick={() => {
-            setOpen(false);
-            window.location.href = "/appointment";
-          }}
-        >
-          Book Session
-        </button>
-
       </div>
 
-      {/* hamburger */}
+      {/* Hamburger */}
       <div className="menu-icon" onClick={() => setOpen(!open)}>
         ☰
       </div>
